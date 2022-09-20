@@ -6,7 +6,8 @@ public class Subtraction {
     private double result;
 
     public void doTheSubtraction(ArrayList<Integer> numList){
-        for(int i = 0; numList.size() > i; i++){
+        setResult(numList.get(0));
+        for(int i = 1; numList.size() > i; i++){
             setResult(getResult() - numList.get(i));
         }
     }

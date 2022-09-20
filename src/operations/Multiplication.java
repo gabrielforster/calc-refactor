@@ -3,7 +3,7 @@ package operations;
 import java.util.ArrayList;
 
 public class Multiplication {
-    private double result;
+    private double result = 1;
 
     public void doTheMultiplication(ArrayList<Integer> numList){
         for(int i = 0; numList.size() > i; i++){
